@@ -1,0 +1,126 @@
+#
+# Misc notes on the Jura E65 coffee machine, V1.01
+#
+# (C) Hajo Noerenberg 2006
+#
+# http://www.noerenberg.de/
+# https://github.com/hn/jura-e65-coffee-machine
+#
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License version 3.0 as
+# published by the Free Software Foundation.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along
+# with this program. If not, see <http://www.gnu.org/licenses/gpl-3.0.txt>.
+#
+
+1. Service connector, top view:
+
+   |...|
+   12345
+
+   1 (brown)  TxD/RxD ?
+   2 (red)    GND
+   3 (orange) TxD/RxD ?
+   4          N/C
+   5 (yellow) VCC
+
+   INCOMPLETE / NOT VERIFIED!
+
+
+2. Integrated circuits (jura-e65-circuit-board.jpg):
+
+   IC1.)
+
+   UCHI GMOL-3
+   TOP TRONIC
+   HD6433214L10P
+   2B4 Japan
+
+   Hitachi/Renesas H8/3214 (H8/300 Family)
+   Single Chip RISC Computer 32kb ROM / 1kb RAM
+
+   Web: Part No.: HD6433214 (MPU/MCU>H8 Family>H8/300 Series>H8/3217 Group)
+   http://www.datasheetarchive.com/pdf/1552016.pdf
+
+
+   IC3.)
+
+   HT93LC56
+   A206K0604-3
+
+   2k 3wire Serial EEPROM
+
+
+   IC4.)
+
+   M74HC14B1
+   W992M0211
+   Malaysia /ST/
+
+   Hex Schmitt Trigger
+
+
+   IC5.)
+
+   MAL
+   3V555IN
+   90a016 /ST/
+
+
+   IC6.)
+
+   ULN2803A
+   W993K0138
+   Malaysia /ST/
+
+   Driver
+
+
+3. Board connectors (JWT)
+
+   CN7.) 
+
+   1. (brown)  flow meter
+   2. (red)    flow meter
+   3. (orange) lift motor sensor (brew group positioning - "encoder")
+   4. (yellow) lift motor sensor ("encoder")
+   5. (green)  flow meter
+   6. (blue)   lift motor sensor ("encoder")
+   7. (purple) lift motor sensor ("encoder")
+
+   CN9.) 
+
+   1. (brown)  mill motor 
+   2. (red)    lift motor
+   3. (orange) lift motor
+   4. (yellow) magnet switch
+   5. (green)  heating cartridge
+   6. (blue)   pump
+   7. (purple) VCC
+   8. (grey)   GND
+   9. (white)  water tank reed contact
+
+   CN4.) (Service connector)
+
+   1. (brown)  TxD/RxD ?
+   2. (red)    GND
+   3. (orange) RxD/TxD ?
+   4. (yellow) VCC
+
+   CN6.)
+
+   1. (red)    thermoblock temperature sensor
+   2. (red)    thermoblock temperature sensor
+   3. (blue)   waste container sensor
+   4. (white)  waste container sensor
+   5. (black)  steam switch
+   6. (black)  steam switch
+
+
