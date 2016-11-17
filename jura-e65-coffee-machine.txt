@@ -25,11 +25,11 @@
    |...|
    12345
 
-   1 (brown)  TxD/RxD ?
+   1 (brown)  TxD
    2 (red)    GND
-   3 (orange) TxD/RxD ?
+   3 (orange) TxD
    4          N/C
-   5 (yellow) VCC
+   5 (yellow) VCC 5V
 
    INCOMPLETE / NOT VERIFIED!
 
@@ -109,10 +109,10 @@
 
    CN4.) (Service connector)
 
-   1. (brown)  TxD/RxD ?
+   1. (brown)  TxD
    2. (red)    GND
-   3. (orange) RxD/TxD ?
-   4. (yellow) VCC
+   3. (orange) RxD
+   4. (yellow) VCC 5V
 
    CN6.)
 
