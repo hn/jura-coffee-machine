@@ -4,7 +4,7 @@
 # (C) Hajo Noerenberg 2006
 #
 # http://www.noerenberg.de/
-# https://github.com/hn/jura-e65-coffee-machine
+# https://github.com/hn/jura-coffee-machine
 #
 #
 # This program is free software: you can redistribute it and/or modify
