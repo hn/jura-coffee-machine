@@ -77,8 +77,8 @@ if ( not defined $ARGV[0] ) {
     print STDERR " RE:xx = read EEPROM word at address xx (00 .. 7F)\n";
     print STDERR " RT:xx = read EEPROM line (16 words) at address xx (00 .. 70)\n";
     print STDERR " RR:xx = read RAM line (16 bytes) at address xx (00 .. F0)\n";
-    print STDERR " FA:xx = product (coffee small .. large .. steam .. flush)\n";
-    print STDERR " FN:xx = mechanical components on/off (pump .. heat .. grinder)\n";
+    print STDERR " FA:xx = product e.g. coffee small, large, steam, flush (01 .. )\n";
+    print STDERR " FN:xx = mechanical components on/off e.g. pump, heat, grinder (01 .. )\n";
     print STDERR " [...]\n";
     print STDERR "WARNING: Wrong commands may damage your machine permanently!\n";
     exit 64;
