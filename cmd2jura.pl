@@ -57,6 +57,8 @@ sub cmd2jura {
                 $inbytes .= pack( 'b8', $inbits );
                 $inbits = undef;
             }
+        } else {
+            usleep( 42 * 1000 );
         }
         if ( $stime + 5 < time() ) {
             print STDERR "Timeout reading result\n";
