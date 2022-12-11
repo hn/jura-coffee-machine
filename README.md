@@ -20,6 +20,9 @@ It uses [WiFiManager](https://github.com/tzapu/WiFiManager) to setup WiFi, so yo
 
 I suggest to use the [Adafruit HUZZAH ESP8266 Breakout](https://www.adafruit.com/product/2471) or the [Wemos D1 mini](https://www.wemos.cc/product/d1-mini.html) as a hardware basis. Both are super-easy to setup and you have your gateway up and running within 10 minutes.
 
+For [some coffee machine models](https://github.com/hn/jura-coffee-machine/issues/1), you might need to add
+an [3V3/5V level shifter](https://raw.githubusercontent.com/ryanalden/esphome-jura-component/master/images/connection-diagram.png).
+
 ![ESP8266](https://github.com/hn/jura-coffee-machine/blob/master/jura-esp8266-interface.jpg "Adafruit HUZZAH")
 
 ## Perl
